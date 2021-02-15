@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
         :text => 'Copyright (c) 2017-2019 Slang Labs Private Limited. All rights reserved.'
     }
     s.author       = { 'SlangLabs' => '42@slanglabs.in' }
-    s.source       = { :http    => 'https://storage.googleapis.com/slangdemoapps.appspot.com/SwiftProtobuf.xcframework.zip'
+    s.source       = { :http    => 'https://storage.googleapis.com/slangdemoapps.appspot.com/slang_retail_assistant.zip'
     }
     s.vendored_frameworks = 'slang_retail_assistant.xcframework', 'SwiftProtobuf.xcframework'
 end
