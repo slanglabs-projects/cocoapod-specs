@@ -12,7 +12,5 @@ Pod::Spec.new do |s|
     s.author       = { 'SlangLabs' => '42@slanglabs.in' }
     s.source       = { :http    => 'https://storage.googleapis.com/slangdemoapps.appspot.com/SwiftProtobuf.xcframework.zip'
     }
-    s.source       = { :http    => 'https://storage.googleapis.com/slangdemoapps.appspot.com/slang_retail_assistant.xcframework.zip'
-    }
     s.vendored_frameworks = 'slang_retail_assistant.xcframework', 'SwiftProtobuf.xcframework'
 end
